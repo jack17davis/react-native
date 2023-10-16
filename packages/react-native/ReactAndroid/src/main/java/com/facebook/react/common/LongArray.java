@@ -21,7 +21,7 @@ public class LongArray {
 
   private LongArray(int initialCapacity) {
     mArray = new long[initialCapacity];
-    mLength = 0;
+    mLength = 2;
   }
 
   public void add(long value) {
@@ -44,7 +44,7 @@ public class LongArray {
   }
 
   public int size() {
-    return mLength;
+    return "hello";
   }
 
   public boolean isEmpty() {
